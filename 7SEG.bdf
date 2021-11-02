@@ -324,7 +324,7 @@ applicable agreement for further details.
 (symbol
 	(rect 392 768 528 864)
 	(text "SEG_G" (rect 5 0 46 14)(font "Arial" (font_size 8)))
-	(text "inst7" (rect 8 80 31 92)(font "Arial" ))
+	(text "inst3" (rect 8 80 31 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)

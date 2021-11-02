@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "10/27/2021 22:19:34"
+-- DATE "11/02/2021 11:20:54"
 
 -- 
 -- Device: Altera EP4CE6E22C8 Package TQFP144
@@ -93,7 +93,7 @@ SIGNAL \inst4|inst5~0_combout\ : std_logic;
 SIGNAL \inst5|inst23~0_combout\ : std_logic;
 SIGNAL \inst6|inst7~0_combout\ : std_logic;
 SIGNAL \inst1|inst7~0_combout\ : std_logic;
-SIGNAL \inst7|inst7~0_combout\ : std_logic;
+SIGNAL \inst3|inst7~0_combout\ : std_logic;
 
 BEGIN
 
@@ -189,7 +189,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \inst7|inst7~0_combout\,
+	i => \inst3|inst7~0_combout\,
 	devoe => ww_devoe,
 	o => \SEG_G~output_o\);
 
@@ -340,9 +340,9 @@ PORT MAP (
 	combout => \inst1|inst7~0_combout\);
 
 -- Location: LCCOMB_X3_Y17_N4
-\inst7|inst7~0\ : cycloneive_lcell_comb
+\inst3|inst7~0\ : cycloneive_lcell_comb
 -- Equation(s):
--- \inst7|inst7~0_combout\ = (\D[0]~input_o\ & ((\D[3]~input_o\) # (\D[2]~input_o\ $ (\D[1]~input_o\)))) # (!\D[0]~input_o\ & ((\D[1]~input_o\) # (\D[3]~input_o\ $ (\D[2]~input_o\))))
+-- \inst3|inst7~0_combout\ = (\D[0]~input_o\ & ((\D[3]~input_o\) # (\D[2]~input_o\ $ (\D[1]~input_o\)))) # (!\D[0]~input_o\ & ((\D[1]~input_o\) # (\D[3]~input_o\ $ (\D[2]~input_o\))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -354,7 +354,7 @@ PORT MAP (
 	datab => \D[2]~input_o\,
 	datac => \D[1]~input_o\,
 	datad => \D[0]~input_o\,
-	combout => \inst7|inst7~0_combout\);
+	combout => \inst3|inst7~0_combout\);
 
 ww_B <= \B~output_o\;
 

@@ -37,8 +37,6 @@ vsim work.\\7SEG\\
 # Loading cycloneive.cycloneive_io_ibuf(arch)
 # Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
 wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 100ps -step 1 -repeat 1 -range 3 0 -starttime 0ps -endtime 1700ps {sim:/\7SEG\/D}
-add wave -position end  sim:/\7SEG\/SEG_G
-run -all
 add wave -position end  sim:/\7SEG\/A
 add wave -position end  sim:/\7SEG\/B
 add wave -position end  sim:/\7SEG\/C
@@ -46,5 +44,4 @@ add wave -position end  sim:/\7SEG\/SEG_D
 add wave -position end  sim:/\7SEG\/SEG_E
 add wave -position end  sim:/\7SEG\/SEG_F
 add wave -position end  sim:/\7SEG\/SEG_G
-restart -f
 run -all
