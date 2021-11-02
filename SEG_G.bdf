@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(output)
 	(rect 632 320 808 336)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "SEG_E" (rect 90 0 125 12)(font "Arial" ))
+	(text "SEG_G" (rect 90 0 126 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

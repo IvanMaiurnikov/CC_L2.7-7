@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "\7SEG\")
-  (DATE "11/02/2021 11:20:54")
+  (DATE "11/02/2021 15:39:48")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
@@ -240,7 +240,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-    (INSTANCE \\inst3\|inst7\~0\\)
+    (INSTANCE \\inst10\|inst7\~0\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (3715:3715:3715) (3931:3931:3931))
